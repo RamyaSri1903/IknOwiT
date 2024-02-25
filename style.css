@@ -1,0 +1,40 @@
+ul.topnav {
+    list-style-type: none;
+    margin: 10px;
+    padding:10px;
+    overflow: hidden;
+    background-color:white;
+  }
+  
+  ul.topnav li {float: left;}
+  .img-fluid{
+    height:550px;
+    width: 1500px;
+}
+
+
+  .right{
+    padding: 20px;
+    padding-right:75px;
+    font: italic small-caps bold 20px/50px Georgia, serif;
+  }
+  
+  ul.topnav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color:gold;}
+  
+  ul.topnav li a.active {background-color:gold;}
+  
+  ul.topnav li.right {float: right;}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+  

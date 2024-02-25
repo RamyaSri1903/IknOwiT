@@ -1,0 +1,84 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Login Form</title>    
+</head>
+<style>
+    body {
+      background-image: url("img/login_img.jpg");
+      background-repeat:no-repeat;
+      background-attachment: fixed;
+  background-size: 100% 100%;
+}
+    
+.login{  
+    width:380px;  
+    overflow: hidden;  
+    margin: auto;  
+      
+    padding:80px;  
+    background-color:cornflowerblue;
+    border-radius: 15px ;  
+
+      
+}
+h2{  
+  text-align: center;  
+  color:magenta;  
+  padding: 20px;  
+  }  
+
+label{  
+  color:black;
+  font-size: 17px;  
+  }  
+  #log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius:35px;  
+    padding-left: 7px;  
+    color: blue;  
+  
+  
+}
+#Pass{  
+  width: 300px;  
+  height: 30px;  
+  border: none;  
+  border-radius: 3px;  
+  padding-left: 8px;  
+    
+}  
+#Uname{  
+  width: 300px;  
+  height: 30px;  
+  border: none;  
+  border-radius: 3px;  
+  padding-left: 8px;  
+}
+
+ 
+    </style> 
+<body>   
+  
+      <p style="font-size:50px;font-weight: bolder;font-style: italic;text-align: center;color: aliceblue;">login!!!</p>
+    <div class="login">    
+    <form id="login" method="get" action="login.php">    
+       
+        <label><b>User Name     
+        </b>    
+        </label>    
+        <input type="text" name="Uname" id="Uname" placeholder="Username">    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+        <br><br>    
+        <input type="button" name="log" id="log" value="Sign in">       
+        
+    </form>     
+</div>    
+</body>    
+</html>  

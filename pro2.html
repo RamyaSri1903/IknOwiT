@@ -1,0 +1,289 @@
+<!doctype html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="Restaurant/css/font-awesome.css">
+      <script src="js/bootstrap.bundle.js" async></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>I know iT.Smoke Detection</title>
+
+</head>
+<style>
+    .content{
+        text-align: center;
+        font-size: xx-large;
+        font-weight: bold;
+        
+    }
+    .con{
+        font-size: xx-large;
+        font-weight: bold;
+        
+    }
+    .icon{
+  background-color:black;
+  width:1500px;
+  height:300px;
+  text-align: center;
+  color:blue;
+  font-weight: bolder;
+  font-style: oblique;
+  font-size: x-large;
+  background-color:black;
+  
+}
+/*drop down styling*/
+
+.container-fluid{
+    background-color:plum;
+    color: red;
+    padding:14px 16px;
+    font-size:larger;
+    padding-right:80px;
+    padding-left:80px;
+    font-style: italic;
+
+  }
+.dropdown-item {
+  font-size: 25px;  
+  border: none;
+  outline: none;
+  color:purple;
+  padding: 14px 16px;
+  font-family: inherit;
+  font-size: larger;
+  margin: 0;
+  background-color:palevioletred;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px black;
+  z-index: 1;
+  }
+  .search{
+
+    background-color:gray;
+    }
+.carousel-inner{
+    height:650px;
+  width:1350px;
+  
+}
+.button{
+    text-align: right;
+    align-items: last baseline;
+}
+.dropbtn {
+  background-color:palevioletred;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  
+width: 350px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+
+</style>
+<!--side navbar-->
+<nav class="navbar bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><strong>I know <mark>IoT</mark></strong></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Iknowit.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                projects
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="">Smart DustBin</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Otto Wheels</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Line Follower Robot</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Smart Lock</a></li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Marble Maze</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Smart Buld</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Automatic Soap Dispenser Or Sanitizer</a></li>
+                  <ul class="dropdown-menu">
+                  </li>
+                  <li><a class="dropdown-item" href="pro2.html">Fire And Smoke Alarm</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                    <li><a class="dropdown-item" href="pro3.html">Air Pollution Detection</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="pro1.html">Anti Sleep Alarm</a></li>
+                  <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                  
+            </ul>
+                  <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          
+      <div class="dropdown">
+        <button class="dropbtn">Translate To......</button>
+        <div class="dropdown-content">
+          <a href="pro2_tel.html">Telugu</a>
+          <a href="#">Hindi</a>
+          <a href="#">Tamil</a>
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<!--video-->
+<video width="1500" height="500" controls>
+    <source src="img/smoke.mp4" type="video/mp4">
+</video>
+<p class="content">The voltage that the sensor outputs changes accordingly to the smoke/gas level
+    that exists in the atmosphere. The sensor outputs a voltage that is proportional to
+    the concentration of smoke/gas. In other words, the relationship between voltage
+    and gas concentration is the following:
+    • The greater the gas concentration, the greater the output voltage
+    • The lower the gas concentration, the lower the output voltage
+    The installation of smoke detectors vary depending on the locality. However,
+some rules and guidelines for existing homes are relatively consistent throughout the
+developed world. For example, Canada and Australia require a building to have a
+working smoke detector on every level. The United States NFPA code cited in the
+previous paragraph requires smoke detectors on every habitable level and within the
+vicinity of all bedrooms. Habitable levels include attics that are tall enough to allow
+access. Many other countries have comparable requirements. In new construction,
+minimum requirements are typically more stringent. All smoke detectors must be hooked
+directly to the electrical wiring, be interconnected and have a battery backup. In addition,
+smoke detectors are required either inside or outside every bedroom, depending on local
+codes. Smoke detectors on the outside will detect fires more quickly, assuming the fire
+does not begin in the bedroom, but the sound of the alarm will be reduced and may not
+wake some people. Some areas also require smoke detectors in stairways,
+main hallways and garages. A dozen or more detectors may be connected via wiring or
+wirelessly such that if one detects smoke, the alarms will sound on all the detectors in the
+network, improving the likelihood that occupants will be alerted even if smoke is
+detected far from their location. Wired interconnection are more practical in new
+construction than for existing buildings.<br></p>
+    <h1>Block Diagram:-</h1>
+    <img src="img/smoke.png" alt="Italian Trulli" width="1100" height="500">
+    <p class="con">Hardware Specifications:-<br>
+        1) Arduino uno<br>
+        2) PCB design<br>
+        3) MQ2 sensor<br>
+        4) LED light<br>
+        5) Buzzer<br>
+        6) power supply (9v battery)<br>
+        7) Resistor<br>
+        8) Male to Female Jumper Wires<br>
+
+    <!-- Footer -->
+<footer class="page-footer font-small cyan darken-3">
+  
+      
+    <div class="icon">
+      <p>follow us social media</p>
+    
+      <div class="row">
+  
+         <div class="col-md-12 py-5">
+          <div class="mb-5 flex-center">
+  
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic">
+              <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic">
+              <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Pinterest-->
+            <a class="pin-ic">
+              <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+            </a>
+            <footer>copyright &copy I know IoT</footer>
+          
+          </div>
+        </div>
+      </div>
+   </div>
+   

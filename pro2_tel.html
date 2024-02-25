@@ -1,0 +1,201 @@
+<!doctype html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="Restaurant/css/font-awesome.css">
+      <script src="js/bootstrap.bundle.js" async></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>I know IoT.AntiSleep</title>
+
+</head>
+<style>
+    .content{
+        text-align: center;
+        font-size: xx-large;
+        font-weight: bold;
+        
+    }
+    .icon{
+  background-color:black;
+  width:1500px;
+  height:200px;
+  text-align: center;
+  color:blue;
+  font-weight: bolder;
+  font-style: oblique;
+  font-size: x-large;
+  background-color:black;
+  
+}
+/*drop down styling*/
+
+.container-fluid{
+    background-color:plum;
+    color: red;
+    padding:14px 16px;
+    font-size:larger;
+    padding-right:80px;
+    padding-left:80px;
+    font-style: italic;
+
+  }
+.dropdown-item {
+  font-size: 25px;  
+  border: none;
+  outline: none;
+  color:purple;
+  padding: 14px 16px;
+  font-family: inherit;
+  font-size: larger;
+  margin: 0;
+  background-color:palevioletred;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px black;
+  z-index: 1;
+  }
+  .search{
+
+    background-color:gray;
+    }
+.carousel-inner{
+    height:650px;
+  width:1350px;
+  
+}
+
+
+</style>
+<!--side navbar-->
+<nav class="navbar bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><strong>I know <mark>IoT</mark></strong></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Iknowit.html">హోమ్</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">మా గురించి</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">మా ఖాతాకు లాగిన్ చేయండి</a>
+            </li>
+           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                ప్రాజెక్ట్
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">వాయు కాలుష్య గుర్తింపు</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">ఫైర్ అండ్ స్మోక్ అలారం</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                  </li>
+            <li><a class="dropdown-item" href="#">యాంటీ స్లీప్ అలారం</a></li>
+                  <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                   
+            </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="అన్వేషించు" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">అన్వేషించు</button>
+            </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<!--video-->
+<video width="1500" height="500" controls>
+    <source src="img/smoke.mp4" type="video/mp4">
+</video>
+<p class="content">సెన్సార్ అవుట్‌పుట్ చేసే వోల్టేజ్ పొగ/గ్యాస్ స్థాయికి అనుగుణంగా మారుతుంది
+    వాతావరణంలో ఉన్నది. సెన్సార్ అనులోమానుపాతంలో ఉండే వోల్టేజ్‌ని అందిస్తుంది
+    పొగ/వాయువు యొక్క గాఢత. మరో మాటలో చెప్పాలంటే, వోల్టేజ్ మధ్య సంబంధం
+    మరియు గ్యాస్ ఏకాగ్రత క్రింది విధంగా ఉంటుంది:
+    • గ్యాస్ ఏకాగ్రత ఎక్కువ, అవుట్పుట్ వోల్టేజ్ ఎక్కువ
+    • గ్యాస్ ఏకాగ్రత తక్కువగా ఉంటుంది, అవుట్పుట్ వోల్టేజ్ తక్కువగా ఉంటుంది
+    స్మోక్ డిటెక్టర్ల సంస్థాపన స్థానికతను బట్టి మారుతూ ఉంటుంది. అయితే,
+    ఇప్పటికే ఉన్న గృహాల కోసం కొన్ని నియమాలు మరియు మార్గదర్శకాలు సాపేక్షంగా స్థిరంగా ఉంటాయి
+    అభివృద్ధి చెందిన ప్రపంచం. ఉదాహరణకు, కెనడా మరియు ఆస్ట్రేలియా ఒక భవనం కలిగి ఉండాలి
+    ప్రతి స్థాయిలో పనిచేసే పొగ డిటెక్టర్. యునైటెడ్ స్టేట్స్ NFPA కోడ్ ఉదహరించబడింది
+    మునుపటి పేరా ప్రతి నివాస స్థాయి మరియు లోపల పొగ డిటెక్టర్లు అవసరం
+    అన్ని బెడ్‌రూమ్‌ల సమీపంలో. నివాస యోగ్యమైన స్థాయిలు అనుమతించేంత ఎత్తులో ఉండే అటకలను కలిగి ఉంటాయి
+    యాక్సెస్. అనేక ఇతర దేశాలు పోల్చదగిన అవసరాలను కలిగి ఉన్నాయి. నూతన నిర్మాణంలో,
+    కనీస అవసరాలు సాధారణంగా మరింత కఠినంగా ఉంటాయి. అన్ని స్మోక్ డిటెక్టర్లు తప్పనిసరిగా కట్టిపడేశాయి
+    నేరుగా ఎలక్ట్రికల్ వైరింగ్‌కి, పరస్పరం అనుసంధానించబడి, బ్యాటరీ బ్యాకప్‌ను కలిగి ఉండండి. అదనంగా,
+    స్మోక్ డిటెక్టర్లు స్థానికంగా ఆధారపడి, ప్రతి పడకగది లోపల లేదా వెలుపల అవసరం
+    కోడ్‌లు. బయట ఉన్న స్మోక్ డిటెక్టర్లు మంటలను మరింత త్వరగా గుర్తిస్తాయి, అగ్నిని ఊహిస్తుంది
+    పడకగదిలో ప్రారంభం కాదు, కానీ అలారం యొక్క ధ్వని తగ్గుతుంది మరియు ఉండకపోవచ్చు
+    కొంతమందిని మేల్కొలపండి. కొన్ని ప్రాంతాలకు మెట్ల మార్గాలలో పొగ డిటెక్టర్లు కూడా అవసరం,
+    ప్రధాన హాలులు మరియు గ్యారేజీలు. ఒక డజను లేదా అంతకంటే ఎక్కువ డిటెక్టర్లు వైరింగ్ ద్వారా కనెక్ట్ చేయబడవచ్చు లేదా
+    వైర్‌లెస్‌గా ఎవరైనా పొగను గుర్తిస్తే, డిటెక్టర్‌లలోని అన్ని డిటెక్టర్‌లపై అలారంలు మోగుతాయి
+    నెట్‌వర్క్, పొగ వచ్చినా కూడా నివాసితులు అప్రమత్తమయ్యే అవకాశాన్ని మెరుగుపరచడం
+    వారి స్థానానికి దూరంగా కనుగొనబడింది. వైర్డు ఇంటర్కనెక్షన్ కొత్తదానిలో మరింత ఆచరణాత్మకమైనది
+    ఇప్పటికే ఉన్న భవనాల కంటే నిర్మాణం. 
+    
+    <br></p>
+    <h1>బ్లాక్ రేఖాచిత్రం:-</h1>
+    <img src="img/smoke.png" alt="Italian Trulli" width="1100" height="500">
+<!-- Footer -->
+<footer class="page-footer font-small cyan darken-3">
+  
+      
+    <div class="icon">
+      <p>మమ్మల్ని అనుసరించండి</p>
+    
+      <div class="row">
+  
+         <div class="col-md-12 py-5">
+          <div class="mb-5 flex-center">
+  
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic">
+              <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic">
+              <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Pinterest-->
+            <a class="pin-ic">
+              <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+            </a>
+            <footer>కాపీరైట్ I know Iot</footer>
+          
+          </div>
+        </div>
+      </div>
+   </div>
+   

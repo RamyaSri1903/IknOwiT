@@ -1,0 +1,222 @@
+<!doctype html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="Restaurant/css/font-awesome.css">
+      <script src="js/bootstrap.bundle.js" async></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>I know IoT.AntiSleep</title>
+
+</head>
+<style>
+    .content{
+        text-align: center;
+        font-size: xx-large;
+        font-weight: bold;
+        
+    }
+    .con{
+        font-size: xx-large;
+        font-weight: bold;
+        
+    }
+    .icon{
+  background-color:black;
+  width:1500px;
+  height:200px;
+  text-align: center;
+  color:blue;
+  font-weight: bolder;
+  font-style: oblique;
+  font-size: x-large;
+  background-color:black;
+  
+}
+/*drop down styling*/
+
+.container-fluid{
+    background-color:plum;
+    color: red;
+    padding:14px 16px;
+    font-size:larger;
+    padding-right:80px;
+    padding-left:80px;
+    font-style: italic;
+
+  }
+.dropdown-item {
+  font-size: 25px;  
+  border: none;
+  outline: none;
+  color:purple;
+  padding: 14px 16px;
+  font-family: inherit;
+  font-size: larger;
+  margin: 0;
+  background-color:palevioletred;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px black;
+  z-index: 1;
+  }
+  .search{
+
+    background-color:gray;
+    }
+.carousel-inner{
+    height:650px;
+  width:1350px;
+  
+}
+
+
+</style>
+<!--side navbar-->
+<nav class="navbar bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><strong>I know <mark>IoT</mark></strong></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Iknowit.html">హోమ్</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">మా గురించి</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">మా ఖాతాకు లాగిన్ చేయండి</a>
+            </li>
+           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                ప్రాజెక్ట్
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">వాయు కాలుష్య గుర్తింపు</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">ఫైర్ అండ్ స్మోక్ అలారం</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                  </li>
+            <li><a class="dropdown-item" href="#">యాంటీ స్లీప్ అలారం</a></li>
+                  <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                   
+            </ul>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">వాయు కాలుష్య గుర్తింపు</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">ఫైర్ అండ్ స్మోక్ అలారం</a></li>
+              <li>
+                  <hr class="dropdown-divider">
+                </li>
+          <li><a class="dropdown-item" href="#">యాంటీ స్లీప్ అలారం</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                 
+          </ul>
+        <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="అన్వేషించు" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">అన్వేషించు</button>
+            </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<!--video-->
+<video width="1500" height="500" controls>
+    <source src="img/airpollution.mp4" type="video/mp4">
+</video>
+<p class="content">వాయు కాలుష్యం ప్రతి దేశం యొక్క అతిపెద్ద సమస్య,
+    అది అభివృద్ధి చెందినదా లేదా అభివృద్ధి చెందుతుందా. ఆరోగ్యం
+    సమస్యలు ముఖ్యంగా వేగంగా పెరుగుతున్నాయి
+    అభివృద్ధి చెందుతున్న దేశాల్లోని పట్టణ ప్రాంతాల్లో
+    పారిశ్రామికీకరణ మరియు పెరుగుతున్న వాహనాల సంఖ్య
+    చాలా వాయు కాలుష్య కారకాల విడుదలకు దారితీస్తుంది. హానికరం
+    కాలుష్యం యొక్క ప్రభావాలు తేలికపాటి అలెర్జీ ప్రతిచర్యలను కలిగి ఉంటాయి
+    గొంతు, కళ్ళు మరియు ముక్కు యొక్క చికాకు వంటివి అలాగే ఉంటాయి
+    బ్రోన్కైటిస్, గుండె జబ్బులు వంటి కొన్ని తీవ్రమైన సమస్యలు,
+    న్యుమోనియా, ఊపిరితిత్తులు మరియు తీవ్రమైన ఆస్తమా. ప్రకారం
+    వాయు కాలుష్యం కారణంగా 50,000 నుండి 100,000 వరకు ఒక సర్వే
+    సంవత్సరానికి అకాల మరణాలు U.S. లోనే సంభవిస్తాయి.
+    EUలో సంఖ్య 300,000 మరియు అంతకంటే ఎక్కువ
+    ప్రపంచవ్యాప్తంగా 3,000,000. IOT ఆధారిత వాయు కాలుష్యం
+    మానిటరింగ్ సిస్టమ్ గాలి నాణ్యతను పర్యవేక్షిస్తుంది a
+    ఇంటర్నెట్ ఉపయోగించి వెబ్ సర్వర్ మరియు అలారం ట్రిగ్గర్ చేస్తుంది
+    గాలి నాణ్యత నిర్దిష్ట స్థాయికి మించి తగ్గినప్పుడు
+    థ్రెషోల్డ్ స్థాయి, అంటే తగినంత ఉన్నప్పుడు
+    CO2 వంటి గాలిలో ఉండే హానికరమైన వాయువుల పరిమాణం,
+    పొగ, ఆల్కహాల్, బెంజీన్, NH3, LPG మరియు NOx. అది ఖచ్చితంగా
+    LCD మరియు అలాగే PPMలో గాలి నాణ్యతను చూపుతుంది
+    వెబ్‌పేజీలో వలె ఇది చాలా సులభంగా పర్యవేక్షించగలదు.
+    ఉపయోగించిన ఈ సిస్టమ్‌లో LPG సెన్సార్ జోడించబడింది
+    ఎక్కువగా ఇళ్లలో. సిస్టమ్ ఉష్ణోగ్రతను చూపుతుంది
+    మరియు తేమ. సిస్టమ్‌ను ఎక్కడైనా ఇన్‌స్టాల్ చేసుకోవచ్చు
+    కానీ ఎక్కువగా పరిశ్రమలు మరియు గృహాలలో వాయువులు ఎక్కువగా కనుగొనబడతాయి మరియు 
+    సిస్టమ్ థ్రెషోల్డ్ పరిమితిని దాటినప్పుడు హెచ్చరిక సందేశాన్ని ఇస్తుంది.       <br></p>
+    <h1>బ్లాక్ రేఖాచిత్రం:-</h1>
+    <img src="img/airpollution.png" alt="Italian Trulli" width="1100" height="500">
+<!-- Footer -->
+<footer class="page-footer font-small cyan darken-3">
+  
+      
+    <div class="icon">
+      <p>మమ్మల్ని అనుసరించండి</p>
+    
+      <div class="row">
+  
+         <div class="col-md-12 py-5">
+          <div class="mb-5 flex-center">
+  
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic">
+              <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic">
+              <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Pinterest-->
+            <a class="pin-ic">
+              <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+            </a>
+            <footer>కాపీరైట్ I know Iot</footer>
+          
+          </div>
+        </div>
+      </div>
+   </div>
+   
